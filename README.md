@@ -31,7 +31,7 @@ To develop a single-page application featuring a map of your neighborhood or a n
 
 1. First of all download ngrok.
 2. Then to install (On Windows OS), open the .rar file and extract the files from it to a separate folder save ngrok.exe in it and to      run double click the ngrok.exe file.
-3. Then go to repo https://github.com/Shadmanwaris/Neighbourhodd-App, clone or download the repository to your local computer to make change to your site for optimisation purpose.
+3. Then go to repo https://github.com/Shadmanwaris/Neighbourhood-App, clone or download the repository to your local computer to make      change to your site for optimisation purpose.
 4. Open the folder of your local repo, and copy the ngrok.exe file in it.
 5. Now open bash from your current file location.And write following command to start the local server
 
