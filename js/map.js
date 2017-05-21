@@ -83,7 +83,7 @@ var initMap = function() {
 
             // Error handling for if no articles are returned from Wikipedia API
             if (infoUrl === undefined) {
-              infowindow.setContent('<div>' + '<h4>' + marker.title + '</h4>' + '<h5>' + marker.category + '</h5>' + '<h6>' + '<p>' + 'Website : ' + marker.website +'</p>' + '</h6>' + '<h6>' + '<p>' + 'Address : ' + marker.address + '</p>' +'</h6>' + '<p>' + 'Sorry no wikipedia entries found.' + '</p>' + '</div>');
+              infowindow.setContent('<div>' + '<h4>' + marker.title + '</h4>' + '<h5>' + marker.category + '</h5>' + '<h6>' + '<p>' + 'Website : ' +  marker.website +'</p>' + '</h6>' + '<h6>' + '<p>' + 'Address : ' + marker.address + '</p>' +'</h6>' + '<p>' + 'Sorry no wikipedia entries found.' + '</p>' + '</div>');
               infowindow.open(map, marker);
 
             } else {

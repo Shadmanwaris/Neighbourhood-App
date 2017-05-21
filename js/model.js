@@ -6,7 +6,7 @@ var locations = [
     {
         category : "Museum",
         name : "The Metropolitan Museum",
-        website : "metmuseum.org",
+        website : "www.metmuseum.org",
         address : "5th Ave, New York,",
         location : {
             lat : 40.795126,
@@ -85,7 +85,7 @@ var locations = [
     },
     {
         category : "Cafe",
-        name : "Society Cafe",
+        name : "Society Cafe Shop",
         website : "societycafenyc.com",
         address : "13th St, New York",
         location : {
