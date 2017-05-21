@@ -27,3 +27,25 @@ To develop a single-page application featuring a map of your neighborhood or a n
 9. Markers will animate when clicked (e.g. bouncing, color change.)
 10. All data requests are retrieved in an asynchronous manner.
 
+# Setting up Local server :
+
+1. First of all download ngrok.
+2. Then to install (On Windows OS), open the .rar file and extract the files from it to a separate folder save ngrok.exe in it and to      run double click the ngrok.exe file.
+3. Then go to repo https://github.com/Shadmanwaris/Neighbourhodd-App, clone or download the repository to your local computer to make change to your site for optimisation purpose.
+4. Open the folder of your local repo, and copy the ngrok.exe file in it.
+5. Now open bash from your current file location.And write following command to start the local server
+
+  ```bash
+  $> cd /path/to/your-project-folder
+  $> python -m http.server 8080  or python -m SimpleHTTPServer 8080
+  ```
+
+6. Now double click to run ngrok.exe from local repo.
+7. Type following command to be online from ngrok cmd.
+
+ ```ngrok
+  $> ./ngrok http 8080
+  ```
+8. Now open the browser and type 127.0.0.1:4040 localhost
+9. It will provide you with two links, eg. https://d498d579.ngrok.io/ and other http://d498d579.ngrok.io/,please use https link because    it is more secure and safe.
+10. Through these link you can check the pagespeed by using your local server.
