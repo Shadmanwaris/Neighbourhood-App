@@ -62,9 +62,9 @@ var initMap = function() {
         });
 
         function toggleBounce(marker) {
-            marker.setAnimation(google.maps.Animation.Bounce);
+            marker.setAnimation(google.maps.Animation.BOUNCE);
             setTimeout(function(){
-                marker.setAnimation(null)
+                marker.setAnimation(null);
             }, 1500);
         }
 
@@ -141,4 +141,4 @@ var initMap = function() {
         }
 
     ko.applyBindings(vm);
-}
+};
