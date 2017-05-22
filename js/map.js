@@ -142,3 +142,7 @@ var initMap = function() {
 
     ko.applyBindings(vm);
 };
+
+function mapError(){
+  alert("Could not load Google Maps");
+}
